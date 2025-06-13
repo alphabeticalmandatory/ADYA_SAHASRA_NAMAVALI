@@ -7,7 +7,7 @@
       src="https://i.ibb.co/ymQ8RC0D/Screenshot-2024-09-17-18-55-25-571-com-google-android-youtube-1.jpg" 
       alt="Devi Kalika" 
       style="
-        width: 10%;
+        width: 100%;
         max-width: 700px;
         height: auto;
         border-top-left-radius: 16px;
