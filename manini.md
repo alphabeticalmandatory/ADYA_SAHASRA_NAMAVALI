@@ -11,7 +11,7 @@
         max-width: 700px;
         height: auto;
         border-top-left-radius: 16px;
-        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
         display: block;
         margin: auto;
       " 
@@ -42,7 +42,7 @@
 <blockquote style="
   font-style: italic;
   color: #555;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   font-family: Georgia, serif;
   margin: 1.5rem auto;
   max-width: 650px;
