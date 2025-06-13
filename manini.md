@@ -1,30 +1,32 @@
-<!-- 430. MANINI Page -->
+<!-- 430. MANINI - Devi Kalika -->
 
-<!-- Full-width Image with only top corners rounded -->
+<!-- Full-width Image with top corners rounded -->
 <p align="center">
-  <img 
-    src="https://ibb.co/XfCz4PX9" 
-    alt="Manini" 
-    style="
-      width: 100%;
-      max-width: 700px;
-      height: auto;
-      border-top-left-radius: 16px;
-      border-top-right-radius: 16px;
-      display: block;
-      margin: auto;
-    "
-  />
+  <a href="https://ibb.co/XfCz4PX9" target="_blank">
+    <img 
+      src="https://i.ibb.co/ymQ8RC0D/Screenshot-2024-09-17-18-55-25-571-com-google-android-youtube-1.jpg" 
+      alt="Devi Kalika" 
+      style="
+        width: 100%;
+        max-width: 700px;
+        height: auto;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        display: block;
+        margin: auto;
+      " 
+    />
+  </a>
 </p>
 
-<!-- Gradient Title -->
+<!-- Gradient Title for MANINI -->
 <div style="
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   font-weight: bold;
   padding: 0.6rem 1rem;
   margin-top: -5px;
-  background: linear-gradient(to right, #7b2ff7, #f107a3);
+  background: linear-gradient(to right, #3b0a0a, #6e0d25);
   color: white;
   max-width: 700px;
   margin-left: auto;
@@ -36,10 +38,20 @@
   430. MANINI
 </div>
 
-<!-- Subtitle -->
-<p style="text-align: center; font-style: italic; color: #555; font-family: 'Georgia', serif; margin-top: 1rem;">
+<!-- Blockquote Subtitle -->
+<blockquote style="
+  font-style: italic;
+  color: #555;
+  font-size: 1.05rem;
+  font-family: Georgia, serif;
+  margin: 1.5rem auto;
+  max-width: 650px;
+  border-left: 4px solid #6e0d25;
+  padding-left: 1rem;
+  background: #fdf6f7;
+">
   The One who is Viyog or SEPARATION in Love
-</p>
+</blockquote>
 
 <!-- Description -->
 <div style="
