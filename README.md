@@ -1,1 +1,1 @@
-<a href="https://ibb.co/XfCz4PX9"><img src="https://i.ibb.co/ymQ8RC0D/Screenshot-2024-09-17-18-55-25-571-com-google-android-youtube-1.jpg" alt="Screenshot-2024-09-17-18-55-25-571-com-google-android-youtube-1" border="0" /></a>
+<div align="justify"><a href="https://ibb.co/XfCz4PX9"><img src="https://i.ibb.co/ymQ8RC0D/Screenshot-2024-09-17-18-55-25-571-com-google-android-youtube-1.jpg" alt="Screenshot-2024-09-17-18-55-25-571-com-google-android-youtube-1" border="0" /></a></div>
