@@ -11,8 +11,7 @@
 </blockquote>
 
 <div class="description">
-  Devi Kaalika is the mild periods of separation in Love.  
-  She projects as anger or disappointment in Maa Radha, towards Krishna when he displeases her.  
-  <br><br>
+  Devi Kaalika is the mild periods of separation in Love.<br><br>
+  She projects as anger or disappointment in Maa Radha, towards Krishna when he displeases her.<br><br>
   <strong>Manini</strong> merely denotes her <strong>displeasure rooted in pure love</strong> towards her beloved Sadhaka.
 </div>
