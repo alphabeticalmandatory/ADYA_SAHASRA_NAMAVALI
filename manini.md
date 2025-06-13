@@ -1,7 +1,7 @@
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baskervville+SC:wght@400..700&family=Cinzel&family=Merriweather&family=Tangerine:wght@400;700&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Gloock&family=Merriweather&display=swap" rel="stylesheet">
 
 <!-- Full-width Image with top corners rounded -->
 <p align="center">
@@ -22,21 +22,22 @@
   </a>
 </p>
 
-<!-- Gradient Title for MANINI -->
+<!-- Gradient Title -->
 <div style="
   text-align: center;
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: bold;
   padding: 0.6rem 1rem;
   margin-top: -5px;
-  background: linear-gradient(to right, #3b0a0a, #6e0d25);
+  background: linear-gradient(to right, #444, #222);
   color: white;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
-  font-family: 'Uncial Antiqua', system-ui;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 1px;
 ">
   430. MANINI
 </div>
@@ -44,14 +45,14 @@
 <!-- Blockquote Subtitle -->
 <blockquote style="
   font-style: italic;
-  color: #555; /* Changed to green */
+  color: #444;
   font-size: 1.2rem;
-  font-family: 'Baskervville SC', serif;
+  font-family: 'Gloock', serif;
   margin: 1.5rem auto;
   max-width: 650px;
-  border-left: 4px solid #6e0d25;
+  border-left: 4px solid #999;
   padding-left: 1rem;
-  background: #fdf6f7;
+  background: #f5f5f5;
 ">
   The One who is Viyog or SEPARATION in Love
 </blockquote>
