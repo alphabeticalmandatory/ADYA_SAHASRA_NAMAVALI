@@ -1,3 +1,6 @@
+<!-- Load Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Merriweather&display=swap" rel="stylesheet">
+
 <!-- 430. MANINI - Devi Kalika -->
 
 <!-- Full-width Image with top corners rounded -->
@@ -22,9 +25,9 @@
 <!-- Gradient Title for MANINI -->
 <div style="
   text-align: center;
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: bold;
-  padding: 0.6rem 1rem;
+  padding: 0.4rem 0.5rem;
   margin-top: -5px;
   background: linear-gradient(to right, #3b0a0a, #6e0d25);
   color: white;
@@ -33,7 +36,7 @@
   margin-right: auto;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Cinzel Decorative', serif;
 ">
   430. MANINI
 </div>
@@ -43,8 +46,8 @@
   font-style: italic;
   color: #555;
   font-size: 1.1rem;
-  font-family: Georgia, serif;
-  margin: 1.5rem auto;
+  font-family: 'Merriweather', serif;
+  margin: 1.2rem auto;
   max-width: 650px;
   border-left: 4px solid #6e0d25;
   padding-left: 1rem;
@@ -56,12 +59,12 @@
 <!-- Description -->
 <div style="
   max-width: 700px;
-  margin: 1.5rem auto;
+  margin: 1.2rem auto;
   font-size: 1.05rem;
   line-height: 1.8;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather', serif;
   color: #333;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 ">
   Devi Kaalika is the mild periods of separation in Love.  
   She projects as anger or disappointment in Maa Radha, towards Krishna when he displeases her.  
