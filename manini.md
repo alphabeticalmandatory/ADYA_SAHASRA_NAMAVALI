@@ -1,7 +1,7 @@
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Gloock&family=Merriweather&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alice&family=Cinzel&family=Merriweather&display=swap" rel="stylesheet">
 
 <!-- Full-width Image with top corners rounded -->
 <p align="center">
@@ -22,53 +22,9 @@
   </a>
 </p>
 
-<!-- Gradient Title -->
+<!-- Gradient Title for MANINI -->
 <div style="
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
   padding: 0.6rem 1rem;
-  margin-top: -5px;
-  background: linear-gradient(to right, #444, #222);
-  color: white;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
-  font-family: 'Cinzel', serif;
-  letter-spacing: 1px;
-">
-  430. MANINI
-</div>
-
-<!-- Blockquote Subtitle -->
-<blockquote style="
-  font-style: italic;
-  color: #444;
-  font-size: 1.2rem;
-  font-family: 'Gloock', serif;
-  margin: 1.5rem auto;
-  max-width: 650px;
-  border-left: 4px solid #999;
-  padding-left: 1rem;
-  background: #f5f5f5;
-">
-  The One who is Viyog or SEPARATION in Love
-</blockquote>
-
-<!-- Description -->
-<div style="
-  max-width: 700px;
-  margin: 1.5rem auto;
-  font-size: 1.05rem;
-  line-height: 1.8;
-  font-family: 'Merriweather', serif;
-  color: #333;
-  padding: 0 1rem;
-">
-  Devi Kaalika is the mild periods of separation in Love.  
-  She projects as anger or disappointment in Maa Radha, towards Krishna when he displeases her.  
-  <br><br>
-  <strong>Manini</strong> merely denotes her <strong>displeasure rooted in pure love</strong> towards her beloved Sadhaka.
-</div>
