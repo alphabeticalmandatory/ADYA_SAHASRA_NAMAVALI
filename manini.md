@@ -1,3 +1,6 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 </head>
@@ -48,7 +51,7 @@
   font-style: italic;
   color: #555;
   font-size: 1.2rem;
-  font-family: Georgia, serif;
+  font-family: "Tangerine", cursive;
   margin: 1.5rem auto;
   max-width: 650px;
   border-left: 4px solid #6e0d25;
