@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Adya Sahasra Namavali</title>
 
   <!-- Google Fonts -->
@@ -10,17 +10,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alice&family=Cinzel&family=Merriweather&display=swap" rel="stylesheet">
 
+  <!-- Custom Styles -->
   <style>
     :root {
       --max-width: 700px;
-      --gutter: 1rem;
+      --gutter: 0.6rem;
     }
 
     body {
       font-family: 'Merriweather', serif;
-      background: #fdfdfd;
       margin: 0;
+      background-color: #fff;
+    }
+
+    .markdown-section {
       padding: var(--gutter);
+      max-width: var(--max-width);
+      margin: auto;
     }
 
     img.full-banner {
@@ -35,70 +41,63 @@
 
     .title-banner {
       text-align: center;
-      font-size: 2rem;
+      font-size: 1.9rem;
       font-weight: bold;
-      padding: 0.6rem 1rem;
-      margin: -5px auto var(--gutter);
+      padding: 0.4rem 1rem;
       background: linear-gradient(to right, #3b0a0a, #6e0d25);
       color: white;
-      max-width: var(--max-width);
       border-bottom-left-radius: 12px;
       border-bottom-right-radius: 12px;
       font-family: 'Cinzel', serif;
       letter-spacing: 1px;
+      margin: -4px auto var(--gutter);
     }
 
     blockquote.subtitle {
       font-style: italic;
       color: #444;
-      font-size: 1.25rem;
+      font-size: 1.2rem;
       font-family: 'Alice', serif;
       margin: var(--gutter) auto;
-      max-width: 650px;
       border-left: 4px solid #6e0d25;
       padding-left: 1rem;
       background: #fdf6f7;
     }
 
     .description {
-      max-width: var(--max-width);
-      margin: var(--gutter) auto;
       font-size: 1.05rem;
-      line-height: 1.8;
+      line-height: 1.7;
+      font-family: 'Merriweather', serif;
       color: #333;
-      padding: 0 var(--gutter);
+      margin: var(--gutter) auto;
     }
 
-    /* Adjust Docsify default spacing */
-    .markdown {
-      padding: 0 !important;
-      margin: 0 auto;
+    .sidebar-toggle {
+      z-index: 1000;
     }
   </style>
 </head>
+
 <body>
-  <div id="app"></div>
+  <div id="app">Loading...</div>
 
   <script>
     window.$docsify = {
       name: 'Adya Sahasra Namavali',
+      repo: '',
       loadSidebar: true,
-      subMaxLevel: 2,
       loadNavbar: false,
+      subMaxLevel: 2,
       auto2top: true,
-      search: 'auto',
-      sidebarDisplayLevel: 0,
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
       }
     };
   </script>
 
-  <!-- Single Docsify script include -->
+  <!-- Core Docsify -->
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <!-- Optional: collapsible sidebar -->
+  <!-- Sidebar Collapse Plugin -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-  <!-- Optional: search plugin -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
