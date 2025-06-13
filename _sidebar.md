@@ -1,2 +1,3 @@
 - [Read Me](README)
+- [429. Manada](/429._MANADA.md)
 - [430. Manini](/manini.md)
