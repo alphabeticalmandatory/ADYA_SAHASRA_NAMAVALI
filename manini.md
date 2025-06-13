@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://adyakali.com/assets/img/adya_kali_amma_vigraham.png" alt="Manini" style="border-radius: 12px;" />
+  <img src="https://adyakali.com/assets/img/adya_kali_amma_vigraham.png" alt="Manini" />
 </p>
 
 <h2 align="center"><strong>430. MANINI</strong></h2>
