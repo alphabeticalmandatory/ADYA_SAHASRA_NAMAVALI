@@ -1,6 +1,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville+SC:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 </head>
@@ -40,7 +46,7 @@
   margin-right: auto;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
-  font-family: 'Cinzel', serif;
+  font-family: "Uncial Antiqua", system-ui;
 ">
   430. MANINI
 </div>
@@ -51,7 +57,7 @@
   font-style: italic;
   color: #555;
   font-size: 1.2rem;
-  font-family: "Tangerine", cursive;
+  font-family: "Baskervville SC", serif;
   margin: 1.5rem auto;
   max-width: 650px;
   border-left: 4px solid #6e0d25;
