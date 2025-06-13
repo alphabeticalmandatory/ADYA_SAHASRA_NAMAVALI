@@ -1,3 +1,6 @@
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+</head>
 <!-- 430. MANINI - Devi Kalika -->
 
 <!-- Full-width Image with top corners rounded -->
