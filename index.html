@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adya Sahasranamavali</title>
+  <title>Adya Sahasra Namavali</title>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,54 +11,68 @@
   <link href="https://fonts.googleapis.com/css2?family=Alice&family=Cinzel&family=Merriweather&display=swap" rel="stylesheet">
 
   <style>
+    :root {
+      --max-width: 700px;
+      --gutter: 1rem;
+    }
+
     body {
       font-family: 'Merriweather', serif;
       background: #fdfdfd;
+      margin: 0;
+      padding: var(--gutter);
     }
+
     img.full-banner {
       width: 100%;
-      max-width: 700px;
+      max-width: var(--max-width);
       height: auto;
       border-top-left-radius: 16px;
       border-bottom-right-radius: 16px;
       display: block;
-      margin: auto;
+      margin: var(--gutter) auto;
     }
+
     .title-banner {
       text-align: center;
       font-size: 2rem;
       font-weight: bold;
       padding: 0.6rem 1rem;
-      margin-top: -5px;
+      margin: -5px auto var(--gutter);
       background: linear-gradient(to right, #3b0a0a, #6e0d25);
       color: white;
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
+      max-width: var(--max-width);
       border-bottom-left-radius: 12px;
       border-bottom-right-radius: 12px;
       font-family: 'Cinzel', serif;
       letter-spacing: 1px;
     }
+
     blockquote.subtitle {
       font-style: italic;
       color: #444;
       font-size: 1.25rem;
       font-family: 'Alice', serif;
-      margin: 1.5rem auto;
+      margin: var(--gutter) auto;
       max-width: 650px;
       border-left: 4px solid #6e0d25;
       padding-left: 1rem;
       background: #fdf6f7;
     }
+
     .description {
-      max-width: 700px;
-      margin: 1.5rem auto;
+      max-width: var(--max-width);
+      margin: var(--gutter) auto;
       font-size: 1.05rem;
       line-height: 1.8;
-      font-family: 'Merriweather', serif;
       color: #333;
-      padding: 0 1rem;
+      padding: 0 var(--gutter);
+    }
+
+    /* Adjust Docsify default spacing */
+    .markdown {
+      padding: 0 !important;
+      margin: 0 auto;
     }
   </style>
 </head>
@@ -67,14 +81,24 @@
 
   <script>
     window.$docsify = {
-      name: 'Adya Sahasranamavali',
-      repo: '',
+      name: 'Adya Sahasra Namavali',
       loadSidebar: true,
       subMaxLevel: 2,
-      loadNavbar: false
+      loadNavbar: false,
+      auto2top: true,
+      search: 'auto',
+      sidebarDisplayLevel: 0,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      }
     };
   </script>
 
+  <!-- Single Docsify script include -->
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!-- Optional: collapsible sidebar -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <!-- Optional: search plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
