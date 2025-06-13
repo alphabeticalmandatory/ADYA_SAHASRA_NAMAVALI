@@ -1,17 +1,7 @@
+<!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baskervville+SC:wght@400..700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
-<head>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-</head>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-<!-- 430. MANINI - Devi Kalika -->
+<link href="https://fonts.googleapis.com/css2?family=Baskervville+SC:wght@400..700&family=Cinzel&family=Merriweather&family=Tangerine:wght@400;700&family=Uncial+Antiqua&display=swap" rel="stylesheet">
 
 <!-- Full-width Image with top corners rounded -->
 <p align="center">
@@ -46,18 +36,17 @@
   margin-right: auto;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
-  font-family: "Uncial Antiqua", system-ui;
+  font-family: 'Uncial Antiqua', system-ui;
 ">
   430. MANINI
 </div>
 
-
 <!-- Blockquote Subtitle -->
 <blockquote style="
   font-style: italic;
-  color: #555;
+  color: #555; /* Changed to green */
   font-size: 1.2rem;
-  font-family: "Baskervville SC", serif;
+  font-family: 'Baskervville SC', serif;
   margin: 1.5rem auto;
   max-width: 650px;
   border-left: 4px solid #6e0d25;
@@ -68,7 +57,7 @@
 </blockquote>
 
 <!-- Description -->
-  <div style="
+<div style="
   max-width: 700px;
   margin: 1.5rem auto;
   font-size: 1.05rem;
@@ -77,7 +66,6 @@
   color: #333;
   padding: 0 1rem;
 ">
-  
   Devi Kaalika is the mild periods of separation in Love.  
   She projects as anger or disappointment in Maa Radha, towards Krishna when he displeases her.  
   <br><br>
