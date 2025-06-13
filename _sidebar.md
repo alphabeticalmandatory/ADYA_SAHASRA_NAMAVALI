@@ -1,3 +1,4 @@
 - [Read Me](README)
-- [429. Manada](/429._MANADA.md)
-- [430. Manini](/manini.md)
+- [428. Asurantaka](/428.md)
+- [429. Manada](/429.md)
+- [430. Manini](/430.md)
