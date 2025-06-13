@@ -1,20 +1,58 @@
+<!-- 430. MANINI Page -->
 
-
+<!-- Full-width Image with only top corners rounded -->
 <p align="center">
-  <a href="https://ibb.co/XfCz4PX9"><img src="https://i.ibb.co/ymQ8RC0D/Screenshot-2024-09-17-18-55-25-571-com-google-android-youtube-1.jpg" alt="Screenshot-2024-09-17-18-55-25-571-com-google-android-youtube-1" border="0" alt="Manini" style="max-width: 90%; height: auto; border-radius: 2 px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);" /></a>
+  <img 
+    src="https://ibb.co/XfCz4PX9" 
+    alt="Manini" 
+    style="
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+      display: block;
+      margin: auto;
+    "
+  />
 </p>
 
-<h2 align="center" style="margin-top: 1rem; font-size: 1.8rem;"><strong>430. MANINI</strong></h2>
+<!-- Gradient Title -->
+<div style="
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 0.6rem 1rem;
+  margin-top: -5px;
+  background: linear-gradient(to right, #7b2ff7, #f107a3);
+  color: white;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+">
+  430. MANINI
+</div>
 
----
+<!-- Subtitle -->
+<p style="text-align: center; font-style: italic; color: #555; font-family: 'Georgia', serif; margin-top: 1rem;">
+  The One who is Viyog or SEPARATION in Love
+</p>
 
-<h1 align="center"><em><strong>The One who is Viyog or SEPARATION in Love</strong></em></h1>
-
-<br>
-
-<div style="max-width: 700px; margin: auto; font-size: 1.5rem; line-height: 1.7;">
-Devi Kaalika is the mild periods of separation in Love.  
-She projects as anger or disappointment in Maa Radha, towards Krishna when he displeases her.  
-<br><br>
-<strong>Manini</strong> merely denotes her <strong>displeasure rooted in pure love</strong> towards her beloved Sadhaka.
+<!-- Description -->
+<div style="
+  max-width: 700px;
+  margin: 1.5rem auto;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  padding: 0 1rem;
+">
+  Devi Kaalika is the mild periods of separation in Love.  
+  She projects as anger or disappointment in Maa Radha, towards Krishna when he displeases her.  
+  <br><br>
+  <strong>Manini</strong> merely denotes her <strong>displeasure rooted in pure love</strong> towards her beloved Sadhaka.
 </div>
