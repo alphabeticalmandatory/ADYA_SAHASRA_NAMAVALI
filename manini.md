@@ -55,15 +55,16 @@
 </blockquote>
 
 <!-- Description -->
-<div style="
+  <div style="
   max-width: 700px;
   margin: 1.5rem auto;
   font-size: 1.05rem;
   line-height: 1.8;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather', serif;
   color: #333;
   padding: 0 1rem;
 ">
+  
   Devi Kaalika is the mild periods of separation in Love.  
   She projects as anger or disappointment in Maa Radha, towards Krishna when he displeases her.  
   <br><br>
