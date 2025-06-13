@@ -1,6 +1,7 @@
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 </head>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
 <!-- 430. MANINI - Devi Kalika -->
 
 <!-- Full-width Image with top corners rounded -->
@@ -36,7 +37,7 @@
   margin-right: auto;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Cinzel', serif;
 ">
   430. MANINI
 </div>
