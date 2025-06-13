@@ -1,103 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adya Sahasra Namavali</title>
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alice&family=Cinzel&family=Merriweather&display=swap" rel="stylesheet">
-
-  <!-- Custom Styles -->
-  <style>
-    :root {
-      --max-width: 700px;
-      --gutter: 0.6rem;
-    }
-
-    body {
-      font-family: 'Merriweather', serif;
-      margin: 0;
-      background-color: #fff;
-    }
-
-    .markdown-section {
-      padding: var(--gutter);
-      max-width: var(--max-width);
-      margin: auto;
-    }
-
-    img.full-banner {
-      width: 100%;
-      max-width: var(--max-width);
-      height: auto;
-      border-top-left-radius: 16px;
-      border-bottom-right-radius: 16px;
-      display: block;
-      margin: var(--gutter) auto;
-    }
-
-    .title-banner {
-      text-align: center;
-      font-size: 1.9rem;
-      font-weight: bold;
-      padding: 0.4rem 1rem;
-      background: linear-gradient(to right, #3b0a0a, #6e0d25);
-      color: white;
-      border-bottom-left-radius: 12px;
-      border-bottom-right-radius: 12px;
-      font-family: 'Cinzel', serif;
-      letter-spacing: 1px;
-      margin: -4px auto var(--gutter);
-    }
-
-    blockquote.subtitle {
-      font-style: italic;
-      color: #444;
-      font-size: 1.2rem;
-      font-family: 'Alice', serif;
-      margin: var(--gutter) auto;
-      border-left: 4px solid #6e0d25;
-      padding-left: 1rem;
-      background: #fdf6f7;
-    }
-
-    .description {
-      font-size: 1.05rem;
-      line-height: 1.7;
-      font-family: 'Merriweather', serif;
-      color: #333;
-      margin: var(--gutter) auto;
-    }
-
-    .sidebar-toggle {
-      z-index: 1000;
-    }
-  </style>
-</head>
-
-<body>
-  <div id="app">Loading...</div>
-
+  <!-- Docsify Theme + Sidebar Plugin -->
   <script>
     window.$docsify = {
       name: 'Adya Sahasra Namavali',
-      repo: '',
       loadSidebar: true,
-      loadNavbar: false,
       subMaxLevel: 2,
-      auto2top: true,
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
       }
     };
   </script>
 
-  <!-- Core Docsify -->
+  <!-- Docsify core -->
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <!-- Sidebar Collapse Plugin -->
+  <!-- Optional sidebar collapse -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+</head>
+<body>
+  <div id="app">Loading…</div>
 </body>
 </html>
