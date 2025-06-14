@@ -54,7 +54,7 @@
 <body>
   <h2>Markdown Generator</h2>
 
-  <label>Image URL:</label>
+  <label>Image URL (ibb.co):</label>
   <input id="imageUrl" type="text" placeholder="Paste uploaded image URL" oninput="updatePreview()">
 
   <label>Name (e.g. ASURANTAKA):</label>
@@ -94,60 +94,80 @@
       }
 
       const title = `${num}. ${name}`;
-      const sub = escapeHTML(subtitle);
-      const dc = escapeHTML(
-        descRaw
-          .split('\n')
-          .filter(line => !line.trim().startsWith('#'))
-          .join('\n')
-      );
       const prev = num - 1;
       const next = num + 1;
 
+      const filteredSubtitle = subtitle
+        .split('\n')
+        .filter(line => !line.trim().startsWith('#'))
+        .join('<br><br>');
+
+      const filteredDesc = descRaw
+        .split('\n')
+        .filter(line => !line.trim().startsWith('#'))
+        .join('<br><br>');
+
       preview.innerHTML = `
+<!-- Load Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Merriweather&display=swap" rel="stylesheet">
+
+<!-- ${title} - Devi Kalika -->
+
+<!-- Full-width Image -->
 <p align="center">
   <a href="${imageUrl}" target="_blank">
-    <img src="${imageUrl}" alt="${title}" style="max-width:700px;width:100%;border-radius:16px;">
+    <img 
+      src="${imageUrl}" 
+      alt="${title}" 
+      style="width: 100%; max-width: 700px; height: auto; border-top-right-radius: 16px; border-bottom-left-radius: 16px; display: block; margin: auto;" />
   </a>
 </p>
 
+<!-- Gradient Title -->
 <div style="
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
-  padding: .4rem;
-  background: linear-gradient(to right,#3b0a0a,#6e0d25);
+  padding: 0.4rem 0.5rem;
+  margin-top: -5px;
+  background: linear-gradient(to right, #3b0a0a, #6e0d25);
   color: white;
-  border-radius: 12px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
   font-family: 'Cinzel Decorative', serif;">
   ${title}
 </div>
 
+<!-- Blockquote Subtitle -->
 <blockquote style="
-  white-space: pre-wrap;
   font-style: italic;
   color: #555;
   font-size: 1.1rem;
   font-family: 'Merriweather', serif;
   margin: 1.2rem auto;
+  max-width: 650px;
   border-left: 4px solid #6e0d25;
   padding-left: 1rem;
   background: #fdf6f7;">
-  ${sub}
+  ${filteredSubtitle}
 </blockquote>
 
+<!-- Description -->
 <div style="
-  white-space: pre-wrap;
   max-width: 700px;
   margin: 1.2rem auto;
   font-size: 1.05rem;
   line-height: 1.8;
   font-family: 'Merriweather', serif;
   color: #333;
-  padding: 0 .5rem;">
-  ${dc}
+  padding: 0 0.5rem;">
+  ${filteredDesc}
 </div>
 
+<!-- Navigation -->
 <p align="center" style="margin-top:2rem;">
   <a class="arrow-link" href="https://alphabeticalmandatory.github.io/ADYA_SAHASRA_NAMAVALI/${prev}">← ${prev}</a>
   <a class="arrow-link" href="https://alphabeticalmandatory.github.io/ADYA_SAHASRA_NAMAVALI/${next}">${next} →</a>
