@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Markdown Generator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Merriweather&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; max-width: 800px; margin: auto; background: #fafafa; }
+    label { display:block; margin-top:1rem; font-weight: bold; }
+    input, textarea, button { width:100%; padding:0.6rem; font-size:1rem; margin-top:0.5rem; }
+    button { background:#6e0d25; color:#fff; border:none; cursor:pointer; border-radius:6px; }
+    .arrow-link { text-decoration:none; font-size:2rem; margin:0 2rem; color:#6e0d25; font-weight:bold; transition:.3s; }
+    .arrow-link:hover { color:#b3003b; text-shadow:0 0 5px rgba(0,0,0,0.1); }
+    #preview { margin-top:2rem; border:1px solid #ccc; padding:1rem; border-radius:12px; background:#fffafc; }
+  </style>
+</head>
+<body>
+  <h2>Markdown Generator</h2>
+
+  <label>Image URL:</label>
+  <input id="imageUrl" type="text" placeholder="Paste uploaded image URL" oninput="updatePreview()">
+
+  <label>Name (e.g. ASURANTAKA):</label>
+  <input id="name" oninput="updatePreview()">
+
+  <label>Subtitle (lines preserved):</label>
+  <textarea id="subtitle" rows="3" oninput="updatePreview()"></textarea>
+
+  <label>Description (lines preserved, lines starting with # are ignored):</label>
+  <textarea id="desc" rows="5" oninput="updatePreview()"></textarea>
+
+  <label>Number (Filename):</label>
+  <input id="filename" type="number" oninput="updatePreview()">
+
+  <button onclick="generateMD()">Download .md</button>
+
+  <div id="preview"><p style="color:gray;">Fill all fields to preview</p></div>
+
+  <script>
+    function escapeHTML(str) {
+      return str.replace(/[&<>'"]/g, tag => ({
+        '&':'&amp;', '<':'&lt;', '>':'&gt;', "'": '&#39;', '"':'&quot;'
+      }[tag]));
+    }
+
+    function updatePreview() {
+      const name = document.getElementById('name').value.trim();
+      const subtitle = document.getElementById('subtitle').value.trim();
+      const descRaw = document.getElementById('desc').value.trim();
+      const num = parseInt(document.getElementById('filename').value);
+      const imageUrl = document.getElementById('imageUrl').value.trim();
+      const preview = document.getElementById('preview');
+
+      if (!name || !subtitle || !descRaw || isNaN(num) || !imageUrl) {
+        preview.innerHTML = '<p style="color:gray;">Fill all fields to preview</p>';
+        return;
+      }
+
+      const title = `${num}. ${name}`;
+      const sub = escapeHTML(subtitle);
+      const dc = escapeHTML(
+        descRaw
+          .split('\n')
+          .filter(line => !line.trim().startsWith('#'))
+          .join('\n')
+      );
+      const prev = num - 1;
+      const next = num + 1;
+
+      preview.innerHTML = `
+<p align="center"><a href="${imageUrl}" target="_blank"><img src="${imageUrl}" alt="${title}" style="max-width:700px;width:100%;border-radius:16px;"></a></p>
+<div style="text-align:center;font-size:2rem;font-weight:bold;padding:.4rem;background:linear-gradient(to right,#3b0a0a,#6e0d25);color:white;border-radius:12px;font-family:'Cinzel Decorative',serif;">${title}</div>
+<blockquote style="white-space:pre-wrap;font-style:italic;color:#555;font-size:1.1rem;font-family:'Merriweather',serif;margin:1.2rem auto;border-left:4px solid #6e0d25;padding-left:1rem;background:#fdf6f7;">${sub}</blockquote>
+<div style="white-space:pre-wrap;max-width:700px;margin:1.2rem auto;font-size:1.05rem;line-height:1.8;font-family:'Merriweather',serif;color:#333;padding:0 .5rem;">${dc}</div>
+<p align="center" style="margin-top:2rem;">
+  <a class="arrow-link" href="https://alphabeticalmandatory.github.io/ADYA_SAHASRA_NAMAVALI/${prev}">← ${prev}</a>
+  <a class="arrow-link" href="https://alphabeticalmandatory.github.io/ADYA_SAHASRA_NAMAVALI/${next}">${next} →</a>
+</p>`;
+    }
+
+    function generateMD() {
+      const content = document.getElementById('preview').innerHTML;
+      const filename = document.getElementById('filename').value.trim();
+      if (!content || !filename || content.includes('Fill all fields')) {
+        alert('Complete all fields first.');
+        return;
+      }
+      const blob = new Blob([content], { type: 'text/markdown' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = `${filename}.md`;
+      link.click();
+    }
+  </script>
+</body>
+  </html>
