@@ -5,3 +5,4 @@
 - [429. Manada](/429.md)
 - [430. Manini](/430.md)
 - [431. Manya](/431.md)
+- [432. Mananiya](/432.md)
