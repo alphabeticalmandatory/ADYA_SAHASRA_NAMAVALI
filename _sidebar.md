@@ -8,5 +8,5 @@
 - [432. Mananiya](/432.md)
 - [433. MADATURA](/433.md)
 - [434. MADIRA MEDURONMADA](/434.md)
-- [435. MEDHYA](/434.md)
+- [435. MEDHYA](/435.md)
 - 
