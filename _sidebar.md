@@ -9,4 +9,4 @@
 - [433. MADATURA](/433.md)
 - [434. MADIRA MEDURONMADA](/434.md)
 - [435. MEDHYA](/435.md)
-- 
+- [436. Sadhya](/436.md)
