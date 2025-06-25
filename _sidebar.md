@@ -15,3 +15,4 @@
 - [439. SARVALOKOTTAMOTTAMMA](/439.md)
 - [440. JAYADA](/440.md)
 - [441. JITVARA](/441.md)
+- [442. JETRI](/442.md)
