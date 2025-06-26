@@ -16,3 +16,4 @@
 - [440. JAYADA](/440.md)
 - [441. JITVARA](/441.md)
 - [442. JETRI](/442.md)
+- [443. JAYASHRIH](/443.md)
